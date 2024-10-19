@@ -1,0 +1,19 @@
+//Array matrix 
+#include <stdio.h>
+int main (){
+	int i,j,k;
+	int marks[2][2][3]={
+		
+		{{65,70,45},
+		{90,56,67}},
+        {{80,49,89},
+        {78,56,93}}
+		};
+	for (i=0;i<2;i++){
+		for (j=0;j<2;j++)
+		for (k=0;k<3;k++){
+			printf("marks[%d][%d][%d]=%d\n",i,j,k,marks[i][j][k]);
+		}
+	}
+	return 0;
+}
