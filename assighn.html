@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tribute to Nelson Mandela</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        p {
+            color: black;
+            line-height: 1.6;
+        }
+
+        ul {
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Nelson Mandela</h1>
+    <p>A Symbol of Freedom and Leadership</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>About Nelson Mandela</h2>
+        <p>
+            Nelson Mandela was a South African anti-apartheid revolutionary,
+            political leader, and philanthropist who served as the first
+            Black president of South Africa from 1994 to 1999.
+        </p>
+    </section>
+
+    <section>
+        <h2>Why I Admire Him</h2>
+        <p>
+            I admire Nelson Mandela for his courage, forgiveness, and
+            commitment to justice. Despite spending 27 years in prison,
+            he chose peace over revenge and united a divided nation.
+        </p>
+    </section>
+
+    <section>
+        <h2>Legacy</h2>
+        <ul>
+            <li>Fought against apartheid</li>
+            <li>Promoted peace and reconciliation</li>
+            <li>Inspired millions around the world</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Learn More</h2>
+        <p>
+            Read more about Nelson Mandela on
+            <a href="https://en.wikipedia.org/wiki/Nelson_Mandela" target="_blank">
+                Wikipedia
+            </a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>Tribute Page | BSD 313 Internet Programming</p>
+</footer>
+
+</body>
+</html>
